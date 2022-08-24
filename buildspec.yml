@@ -9,4 +9,6 @@ phases:
       - mvn install
  
 artifacts:
-  - '**/*'
+  files:
+    - '**/*'
+  
