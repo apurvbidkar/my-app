@@ -6,7 +6,7 @@ phases:
       - apt update
   build:
     commands:
-      - mvn install
+      - mvn clean package
  
 artifacts:
   files:
