@@ -5,11 +5,11 @@ phases:
     commmands:
       - apt update
       - apt install default-jdk
-      - apt install maven
+      
   build:
     commands:
-      - mvn clean package
- 
+      - mvn install
+      
 artifacts:
   files:
     - '**/*'
